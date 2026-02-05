@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:rgba(164, 19, 135, 0.757);
+}
+
+h1{
+    background-color:#081b31;
+    color:white;
+    height:5rem;
+    line-height:5rem;
+}
+
+.choice{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:3.5rem;
+}
+
+.choice:hover{
+    cursor:pointer;
+    background-color:rgba(255, 255, 255, 0.663);
+}
+
+img{
+    height:150px;
+    width:150px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.choices{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5rem;
+    gap:3rem;
+}
