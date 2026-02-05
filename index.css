@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     text-align:center;
-    background-color:rgba(164, 19, 135, 0.757);
+    background-color:rgb(222, 146, 58);
 }
 
 h1{
@@ -40,4 +40,31 @@ img{
     align-items:center;
     margin-top:5rem;
     gap:3rem;
+}
+
+.score_board{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    gap:10rem;
+    margin-top:3rem;
+}
+
+.your_score, .computer_score{
+    font-size:4rem;
+}
+
+.message_container{
+    margin-top:5rem;
+}
+
+.message{
+    background-color:#081b31;
+    color:white;
+    line-height:5rem;
+    display:inline;
+    font-size:3rem;
+    border-radius:2rem;
+    padding:1rem;
 }

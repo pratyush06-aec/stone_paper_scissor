@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stone Paper Scissor Game</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
 </head>
 <body>
     <h1>
         Stone Paper Scissor
     </h1>
     <div class="choices">
-        <div class="choice">
+        <div class="choice" id="stone">
             <img src="assets/ChatGPT Image Feb 5, 2026, 12_55_24 PM.png" alt="stone">
         </div>
-        <div class="choice">
+        <div class="choice" id="paper">
             <img src="assets/ChatGPT Image Feb 5, 2026, 12_55_13 PM.png" alt="paper">
         </div>
-        <div class="choice">
+        <div class="choice" id="scissor">
             <img src="assets/ChatGPT Image Feb 5, 2026, 12_55_19 PM.png" alt="scissor">
         </div>
     </div>
@@ -30,12 +29,14 @@
         </div>
         <div class="opponents_score">
             <p class="computer_score">0</p>
-            <p>Computer Score</p>
+            <p>Opponents Score</p>
         </div>
     </div>
 
-    <div class="messasge_container">
+    <div class="message_container">
         <p class="message">Play your move!!</p>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
